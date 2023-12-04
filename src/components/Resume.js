@@ -62,31 +62,22 @@ const Resume = () => {
             <LocationOn fontSize="small" />
             Address
           </Typography>
-          <Typography variant="body2">24/42, Wakdewadi, Pune - 03</Typography>
+          <Typography variant="body2">25 Park Place</Typography>
           <Typography variant="body1" mt={2}>
             <LocalPhone fontSize="small" /> Phone
           </Typography>
-          <Typography variant="body2">(+91) 9595969922</Typography>
+          <Typography variant="body2">(+1) XXX-XXX-XXXX</Typography>
           <Typography variant="body1" mt={2}>
             <GitHub fontSize="small" /> GitHub
           </Typography>
           <Link
-            href="https://www.github.com/SarthakRathi"
+            href="https://www.github.com/"
             underline="hover"
             color="inherit"
           >
-            <Typography variant="body2">github.com/SarthakRathi</Typography>
+            <Typography variant="body2">github.com/</Typography>
           </Link>
-          <Typography variant="body1" mt={2}>
-            <Instagram fontSize="small" /> Instagram
-          </Typography>
-          <Link
-            href="https://www.instagram.com/_sarthak.r_/"
-            underline="hover"
-            color="inherit"
-          >
-            <Typography variant="body2">instagram.com/_sarthak.r_</Typography>
-          </Link>
+                 
 
           {/* Education */}
 
@@ -110,9 +101,8 @@ const Resume = () => {
               </TimelineSeparator>
               <TimelineContent>
                 <Typography variant="body2" mt={2}>
-                  2007-2020
+                  2019
                 </Typography>
-                <Typography variant="body1">BVB</Typography>
                 <Typography variant="body2">School</Typography>
               </TimelineContent>
             </TimelineItem>
@@ -126,9 +116,9 @@ const Resume = () => {
                 <Typography variant="body2" mt={2}>
                   2020-2023
                 </Typography>
-                <Typography variant="body1">Computer Technology</Typography>
+                <Typography variant="body1">Computer Science</Typography>
                 <Typography variant="body2">
-                  Government Polytechnic, Ahmednagar
+                  GSU Atlanta
                 </Typography>
               </TimelineContent>
             </TimelineItem>
@@ -154,18 +144,12 @@ const Resume = () => {
           <Typography variant="body1" mt={1}>
             <KeyboardArrowRight fontSize="small" /> Python
           </Typography>
-          <Typography variant="body1" mt={1}>
-            <KeyboardArrowRight fontSize="small" /> Java
-          </Typography>
-          <Typography variant="body1" mt={1}>
-            <KeyboardArrowRight fontSize="small" /> Android
-          </Typography>
         </div>
         <div className="right">
           {/* Title */}
 
           <Typography variant="h4" component="h2">
-            Sarthak Rathi
+            Firstname, Lastname
           </Typography>
           <Typography variant="h5" component="h2">
             Developer
@@ -181,13 +165,17 @@ const Resume = () => {
           </div>
 
           <Typography variant="body1">
-            Skilled and versatile Full Stack Developer proficient in HTML, CSS,
-            Java, Python, and React.js. With a strong background in both
-            front-end and back-end development, I bring 1 year of hands-on
-            experience in delivering robust and user-friendly web applications.
-            Seeking a challenging role where I can utilize my technical
-            expertise and contribute to the success of a forward-thinking
-            organization.
+            <ul>
+              <li>
+                Mus placerat eget sed ipsum inceptos primis. Volutpat massa arcu eget posuere duis accumsan efficitur eros penatibus ante.
+              </li>
+              <li>
+                Fames efficitur libero malesuada netus non. Suspendisse rutrum hendrerit sit accumsan vulputate sed volutpat potenti at dui fames. Magna velit molestie maecenas pharetra inceptos morbi dolor montes duis.
+              </li>
+              <li>
+                Platea taciti lectus potenti ex rhoncus aliquet. Urna augue potenti luctus primis donec arcu.
+              </li>
+            </ul>
           </Typography>
 
           {/* Experience  */}
@@ -213,13 +201,13 @@ const Resume = () => {
               </TimelineSeparator>
               <TimelineContent>
                 <Typography variant="body2">
-                  26th Aug 2020 - 9th September 2020
+                  May - Aug 2023
                 </Typography>
                 <Typography variant="body2">
-                  Star Skillcare Education, Pune
+                  ABCD Co.
                 </Typography>
                 <Typography variant="body2">
-                  Internship: Quality Auditor
+                  Internship: Developer
                 </Typography>
               </TimelineContent>
             </TimelineItem>
@@ -231,45 +219,11 @@ const Resume = () => {
               </TimelineSeparator>
               <TimelineContent>
                 <Typography variant="body2" mt={3}>
-                  1th Feb 2021 - 1th March 2021
+                  Aug 2022 - May 2023
                 </Typography>
-                <Typography variant="body2">Internship Studio, Pune</Typography>
+                <Typography variant="body2">Internship</Typography>
                 <Typography variant="body2">
-                  Internship: Wordpress, Web Developement
-                </Typography>
-              </TimelineContent>
-            </TimelineItem>
-
-            <TimelineItem>
-              <TimelineSeparator>
-                <TimelineDot />
-                <TimelineConnector />
-              </TimelineSeparator>
-              <TimelineContent>
-                <Typography variant="body2" mt={3}>
-                  4th Jul 2022 - 14th Aug 2022
-                </Typography>
-                <Typography variant="body2">
-                  Tablabs Technology, Ahmednagar
-                </Typography>
-                <Typography variant="body2">Web Developement(PHP)</Typography>
-              </TimelineContent>
-            </TimelineItem>
-
-            <TimelineItem>
-              <TimelineSeparator>
-                <TimelineDot />
-                <TimelineConnector />
-              </TimelineSeparator>
-              <TimelineContent>
-                <Typography variant="body2" mt={3}>
-                  10th Jun 2023 - Present
-                </Typography>
-                <Typography variant="body2">
-                  Internship Studio, Baner
-                </Typography>
-                <Typography variant="body2">
-                  Web Developement(React JS)
+                  Co op: XYZ Co
                 </Typography>
               </TimelineContent>
             </TimelineItem>
@@ -288,13 +242,13 @@ const Resume = () => {
             <KeyboardArrowRight fontSize="small" /> VS Code
           </Typography>
           <Typography variant="body1" mt={1}>
-            <KeyboardArrowRight fontSize="small" /> Android Studio
+            <KeyboardArrowRight fontSize="small" /> Spark
           </Typography>
           <Typography variant="body1" mt={1}>
-            <KeyboardArrowRight fontSize="small" /> Canva
+            <KeyboardArrowRight fontSize="small" /> MySQL
           </Typography>
           <Typography variant="body1" mt={1}>
-            <KeyboardArrowRight fontSize="small" /> Sandbox
+            <KeyboardArrowRight fontSize="small" /> Spider
           </Typography>
           <Typography variant="body1" mt={1}>
             <KeyboardArrowRight fontSize="small" /> Github
